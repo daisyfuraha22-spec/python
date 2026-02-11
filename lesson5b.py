@@ -12,8 +12,14 @@ print("--------------")
 def message():
     print("hello.we shall be having general meeting on date 15.please avail ypurself")
 
-# message("joy")
-# message("steven")
-for x in range(1,1001):
-    message()
-    print(x)
+message("joy")
+message("steven")
+print("--------------")
+# create afunction that accepts parameters to add two numbers
+def addition(x,y):
+    sum = x+y
+    print("the sum of the number is ",sum)
+
+addition(45,65) 
+addition(75,92)   
+
